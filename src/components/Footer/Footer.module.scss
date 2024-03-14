@@ -1,0 +1,14 @@
+@use '/src/styles/scss/common/variables.scss' as *;
+@import '/src/styles/scss/common/mixins.scss';
+
+.footer {
+  margin-top: 3rem;
+  background-color: $buton-primary-bg-disbled;
+}
+
+.container {
+  margin: auto;
+  max-width: 1180px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

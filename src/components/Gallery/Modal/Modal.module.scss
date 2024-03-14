@@ -1,0 +1,21 @@
+.wrapper {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(91, 112, 131, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+    width: 30vw;
+    height: 30vh;
+}

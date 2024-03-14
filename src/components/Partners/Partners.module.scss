@@ -1,0 +1,31 @@
+.section {
+  background-image: url('../../assets/images/pngegg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+  margin-top: 2rem;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1180px;
+}
+
+.title {
+  font-size: 36px;
+  color: #240046;
+  text-align: center;
+  font-weight: 500;
+}
+
+.images {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    height: auto;
+    align-items: center;
+    padding: 2rem 0 4rem 0;
+}
+
+.img {
+  max-width: 15vw;
+  margin: auto;
+}

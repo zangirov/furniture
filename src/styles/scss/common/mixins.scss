@@ -1,0 +1,64 @@
+@use "/src/styles/scss/common/variables.scss" as *;
+
+//* FLEXIBLE
+
+@mixin display-flex(
+  $align-items: center,
+  $justify-content: space-between,
+  $flex-wrap: wrap,
+  $flex-direction: unset
+) {
+  display: flex;
+  align-items: $align-items;
+  justify-content: $justify-content;
+  flex-wrap: $flex-wrap;
+  flex-direction: $flex-direction;
+}
+
+//* TEXT
+
+@mixin text(
+  $font-size: $font-size-xs,
+  $font-weight: normal,
+  $line-height: normal,
+  $letter-spacing: 0,
+  $color: rgba(145, 85, 177, 1)
+) {
+  font-size: $font-size;
+  line-height: $line-height;
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing;
+  color: $color;
+}
+
+//* BUTTON
+
+@mixin main_button(
+  $width: $button-width,
+  $heigth: $button-heigth,
+  $border-radius: 30px,
+  $font-size: $font-size-exs,
+  $bg-color: $brand-color,
+  $text-color: white
+) {
+  font-family: inherit;
+  width: $button-width;
+  height: $button-heigth;
+  border-radius: $border-radius;
+  border: $secondary-color 2px solid;
+  font-size: $space-xxs;
+  background-color: $bg-color;
+  color: $text-color;
+  cursor: pointer;
+  & p {
+    margin: auto;
+    font-size: $font-size;
+    font-weight: 400;
+  }
+&:hover {
+  animation: round($number: 0);
+  transition: 0.2s all ease-in;
+  background-color: white;
+  color: $bg-color;
+}
+}

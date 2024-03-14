@@ -1,0 +1,6 @@
+@use "/src/styles/scss/common/variables.scss" as *;
+@import "/src/styles/scss/common/mixins.scss";
+
+.button {
+  @include main_button();
+}

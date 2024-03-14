@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item {
+}
+
+.image {
+  max-width: 200px;
+  max-height: 150px;
+}
+
+.image:hover {
+  scale: 1.4;
+}

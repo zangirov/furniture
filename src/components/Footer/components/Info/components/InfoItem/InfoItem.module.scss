@@ -1,0 +1,30 @@
+@use "/src/styles/scss/common/variables.scss" as *;
+@import "/src/styles/scss/common/mixins.scss";
+
+.info_item {
+  @include display-flex($flex-direction: column);
+
+  &::before {
+    content: url('/src/assets/icons/location.svg');
+  }
+}
+
+.item_content {
+}
+
+.item_link {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  display: inline-block;
+}
+
+
+.item_title {
+  @include text(
+    $font-size: $font-size-exs,
+    $font-weight: $font-weight-normal,
+    $color: $background-color
+  );
+}

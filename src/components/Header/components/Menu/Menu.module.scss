@@ -1,0 +1,50 @@
+@use "/src/styles/scss/common/variables.scss" as *;
+@import "/src/styles/scss/common/mixins.scss";
+
+.item_navigate {
+  @include text(
+    $font-size: $font-size-exs,
+    $font-weight: $font-weight-normal,
+    $color: $brand-hover
+  );
+}
+
+.item_navigate {
+  display: inline-block;
+  padding-bottom: 0.25rem;
+  position: relative;
+}
+
+.item_navigate::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(36, 0, 70);
+  transition: width 0.6s ease-out;
+}
+
+.item_navigate:hover::before {
+  width: 100%;
+}
+
+.list_item:hover {
+  scale: 1.11;
+  
+  transition: all 0.3s;
+}
+
+.list {
+  @include display-flex;
+
+  & .list_item {
+    margin-right: $space-s;
+    transition: 0.2s;
+  }
+
+  & .list_item:last-child {
+    margin: 0;
+  }
+}

@@ -1,0 +1,102 @@
+.list {
+  display: grid;
+  grid: repeat(3, 1fr) / repeat(2, 1fr);
+  grid-gap: 4rem;
+}
+
+.title,
+.subtitle,
+.text {
+  color: #343a40;
+}
+
+.color {
+  color: #41294e;
+  display: block;
+}
+
+.container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.title {
+  font-family: "Gilroy", sans-serif;
+  font-size: 50px;
+}
+
+.subtitle {
+  font-family: "Gilroy", sans-serif;
+  font-size: 80px;
+  font-weight: 300;
+}
+
+.circle {
+  background-color: #ece4f0;
+  width: 182px;
+  height: 182px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.text {
+  font-family: "Gilroy", sans-serif;
+  font-size: 20px;
+}
+
+.item {
+  position: relative;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.price div {
+    margin-bottom: 1rem;
+}
+
+.price__title {
+  font-family: "Gilroy", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  color: #343a40;
+}
+
+.price__item {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  align-items: center;
+  grid-gap: 2rem;
+}
+
+.secondary {
+  font-family: "Gilroy";
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.img__block {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.sup {
+    font-size: 48px;
+}
+
+.price__text {
+    font-family: "Gilroy", sans-serif;
+    font-size: 24px;
+    color: #343a40;
+}
+
+
+.item__text {
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    color: #343a40;
+}

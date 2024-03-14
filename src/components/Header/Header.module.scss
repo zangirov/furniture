@@ -1,0 +1,10 @@
+@use '/src/styles/scss/common/variables.scss' as *;
+@import '/src/styles/scss/common/mixins.scss';
+
+
+.header {
+  margin: $font-size-m auto;
+  max-width: $content-width;
+  @include display-flex($flex-wrap: nowrap);
+}
+

@@ -1,0 +1,58 @@
+//* COLORS
+$brand-color: rgba(145, 85, 177, 1);
+$secondary-color: rgba(134, 104, 165, 1);
+$brand-active: rgba(65, 41, 78, 1);
+$brand-hover: rgba(36, 0, 70, 1);
+$background-color: white;
+
+//* BUTTON
+$button-width: 160px;
+$button-heigth: 40px;
+$border-radius: 5px;
+$buton-primary-bg: var($secondary-color);
+$buton-primary-text: var($background-color);
+$buton-primary-bg-hover: var($background-color);
+$buton-primary-text-hover: var(--brand-hover);
+$buton-primary-bg-disbled: rgba(173, 181, 189, 1);
+$buton-primary-text-disbled: var($secondary-color);
+$buton-primary-bg-active: var(--brand-hover);
+$buton-primary-text-active: rgba(248, 248, 248, 1);
+
+
+
+//* FONT
+$font-size-xxl: 100px;
+$font-size-xl: 64px;
+$font-size-l: 40px;
+$font-size-m: 32px;
+$font-size-s: 28px;
+$font-size-xs: 24px;
+$font-size-xxs: 20px;
+$font-size-exs: 16px;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-weight-extraBold: 800;
+$text-primary: rgba(52, 58, 64, 1);
+$text-secondary: rgba(36, 0, 70, 1);
+$text-accent: var($brand-color);
+
+//* INPUT
+$input-text: var($brand-hover);
+$input-bg: var($background-color);
+$input-placeholder: var($buton-primary-bg);
+$input-bg-focus: #fff;
+$input-border-focus: var($brand-color);
+$input-text-focus: #000;
+
+//* LOADER
+$loader-bg: var($brand-color);
+
+//* SPACE
+$content-width: 1180px;
+$space-xl: 100px;
+$space-l: 64px;
+$space-m: 46px;
+$space-s: 36px;
+$space-xs: 30px;
+$space-xxs: 20px;

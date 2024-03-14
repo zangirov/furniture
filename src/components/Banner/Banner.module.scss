@@ -1,0 +1,53 @@
+@use "/src/styles/scss/common/variables.scss" as *;
+@import "/src/styles/scss/common/mixins.scss";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1180px;
+  margin: 2vh auto 0 auto;
+}
+
+.white {
+  @include main_button($bg-color: white);
+}
+
+.gallery {
+  background-color: white;
+  color: rgba(145, 85, 177, 1);
+}
+
+.title_color {
+  color: $brand-color;
+}
+
+.title {
+  font-size: $font-size-l;
+  color: rgba(52, 58, 64, 1);
+}
+
+.main__info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.image_wrapper {
+  width: 50%;
+}
+
+.main__text {
+  font-size: $font-size-xxs;
+  margin: 2rem 5rem 2rem 0;
+  color: rgba(52, 58, 64, 1);
+}
+
+.main__buttons {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call__form {
+  margin-right: 2vw;
+}

@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "FuturaBookC";
+  src: url("../assets/fonts/Futura/FuturaBookC.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/Gilroy/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/Gilroy/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+
+/* @font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/Gilroy/Gilroy-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+} */
+
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Fira Sans Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6,
+html p,
+html blockquote,
+html figure,
+html pre,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p,
+body blockquote,
+body figure,
+body pre {
+  margin: 0;
+}
+html a,
+body a {
+  text-decoration: none;
+}
+html li,
+body li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+#root {
+  margin: 2vh auto 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

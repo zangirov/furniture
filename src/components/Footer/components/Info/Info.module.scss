@@ -1,0 +1,55 @@
+.info {
+  height: 100%;
+}
+
+.info__text {
+  font-family: "FuturaBookC", sans-serif;
+}
+
+.social {
+  display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.social__item {
+  margin-right: 12px;
+}
+
+.info__item_location::before {
+  content: url("../../../../assets/icons/location.svg");
+  margin-right: 12px;
+}
+
+.info__item_email::before {
+  content: url("../../../../assets/icons/mail.svg");
+  margin-right: 12px;
+}
+
+.info__item_phone::before {
+  content: url("../../../../assets/icons/phone.svg");
+  margin-right: 12px;
+}
+
+.info__menu {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 8px;
+}
+
+.info__menu:first-child {
+  margin-top: 2rem;
+}
+
+.info__menu li {
+  display: flex;
+  align-items: center;
+}
+
+.email__icon::before {
+  content: "";
+}
+
+.phone__icon::before {
+  content: "";
+}
