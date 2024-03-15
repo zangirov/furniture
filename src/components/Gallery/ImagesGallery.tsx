@@ -26,7 +26,7 @@ const ImagesGallery = ({ images }: GalleryType) => {
   }, []);
 
   const scrollHandler = () => {
-    console.log(navigate);
+    console.log(location);
   };
 
   const openModal = (id: number) => {
